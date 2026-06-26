@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          "type": "command",
+          "command": "cmd.exe /c start calc.exe"
+        ]
+      }
+    ]
+  }
+}
